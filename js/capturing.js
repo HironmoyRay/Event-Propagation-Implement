@@ -3,13 +3,13 @@ const FormCapturing = document.getElementById("formCapturing");
 const ButtonCapturing = document.getElementById("btnCapturing");
 
 DivCapturing.addEventListener("click",listener,{
-    capture: true, //By Default Capture is false.
+    capture: true, //By Default Capture value is false.
 });
 FormCapturing.addEventListener("click",listener,{
-    capture: true; //By Default Capture is false.
+    capture: true, //By Default Capture value is false.
 });
 ButtonCapturing.addEventListener("click",listener,{
-    capture: true; //By Default Capture is false.
+    capture: true, //By Default Capture value is false.
 });
 
 
