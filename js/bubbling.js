@@ -1,10 +1,10 @@
-const Div = document.getElementById("divBubbling");
-const Form = document.getElementById("formBubbling");
-const Button = document.getElementById("btnBubbling");
+const DivBubbling = document.getElementById("divBubbling");
+const FormBubbling = document.getElementById("formBubbling");
+const ButtonBubbling = document.getElementById("btnBubbling");
 
-Div.addEventListener("click",listener);
-Form.addEventListener("click",listener);
-Button.addEventListener("click",listener);
+DivBubbling.addEventListener("click",listener);
+FormBubbling.addEventListener("click",listener);
+ButtonBubbling.addEventListener("click",listener);
 
 
 function listener(event){

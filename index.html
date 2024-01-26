@@ -28,9 +28,20 @@
     <section>
         <h1>Event Bubbling</h1>
         <hr>
+        <h3>Bubbling Default Behavior is " Bellow to Upper " </h3>
         <div id="divBubbling">
             <form action="" id="formBubbling">
                 <button id="btnBubbling" type="button">Event Bubbling</button>
+            </form>
+        </div>
+    </section>
+    <section>
+        <h1>Event Capturing</h1>
+        <hr>
+        <h3>Capturing by Default is "false". But for "true" its goes " Upper to Bellow " </h3>
+        <div id="divCapturing">
+            <form action="" id="formCapturing">
+                <button id="btnCapturing" type="button">Event Capturing</button>
             </form>
         </div>
     </section>
@@ -40,5 +51,6 @@
 
     <script src="js/delegation.js"></script>
     <script src="js/bubbling.js"></script>
+    <script src="js/capturing.js"></script>
 </body>
 </html>
