@@ -5,3 +5,9 @@ List.addEventListener("click",(e) => {
         e.target.style.backgroundColor = "red";
     }
 })
+
+function addedNewElement() {
+    const newElement = document.createElement("li");
+    newElement.innerText = "My New Element";
+    List.appendChild(newElement);
+} 
