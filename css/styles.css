@@ -9,3 +9,19 @@ li{
 }
 
 
+div{
+    border: 2px solid violet;
+    margin: 20px;
+    padding: 20px;
+}
+form{
+    border: 2px solid lightgreen;
+    margin: 20px;
+    padding: 20px;
+}
+button{
+    background-color: bisque;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
